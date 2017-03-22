@@ -8,7 +8,7 @@ module.exports = {
   entry: './src/app/' + config.libraryName + '/index.js',
   devtool: false,
   output: {
-    path: './dist',
+    path: __dirname + '/dist',
     filename: config.outputFile,
     library: config.libraryClassName,
     libraryTarget: 'umd',
@@ -67,6 +67,6 @@ module.exports = {
     extensions: ['.json', '.js']
   },
   plugins: [
-    new ExtractTextPlugin('./app.css')
+    new ExtractTextPlugin('./' + config.libraryName + '.css')
   ]
 };

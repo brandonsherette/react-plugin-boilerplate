@@ -1,7 +1,7 @@
-const libraryName = 'react-component-boilerplate';
+const libraryName = 'my-plugin-name';
 
 module.exports = {
   libraryName: libraryName,
-  libraryClassName: 'ReactComponentBoilerplate',
+  libraryClassName: 'MyPluginName',
   outputFile: libraryName + '.min.js'
 };

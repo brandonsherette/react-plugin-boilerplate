@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import { PluginName } from './plugin-name/index';
+import { MyPluginName } from './my-plugin-name/index';
 
 class AppComponent extends Component {
   render() {
-    <div className="app-component">
-      <PluginName />
-    </div>
+    return (
+      <div className="app-component">
+        <h1>App Component Enter</h1>
+        <MyPluginName />
+      </div>
+    );
   }
 }
 
