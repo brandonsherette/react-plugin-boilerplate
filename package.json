@@ -1,6 +1,6 @@
 {
   "name": "react-plugin-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Plugin Boilerplate",
   "main": "webpack.config.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "watch": "./node_modules/.bin/webpack --watch"
   },
   "keywords": [],
-  "author": "Brandon Sherette <brandon@sourcemonkeys.com>",
+  "author": "Brandon Sherette <brandonsherette@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.5",
